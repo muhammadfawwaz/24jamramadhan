@@ -1,0 +1,42 @@
+.App {
+    padding: 15px;
+    margin: auto;
+}
+
+@keyframes wtb {
+    from {
+        background-color: #fff;
+    }
+
+    to {
+        background-color: #182734;
+    }
+}
+
+@keyframes btw {
+    from {
+        background-color: #182734;
+    }
+
+    to {
+        background-color: #fff;
+    }
+}
+
+.BackgroundBlack {
+    background-color: #182734;
+    animation-name: wtb;
+    animation-duration: 0.4s;
+}
+
+.BackgroundWhite {
+    background-color: #fff;
+    animation-name: btw;
+    animation-duration: 0.4s;
+}
+
+@media screen and (min-width: 800px) {
+    .App {
+        padding: 30px 200px 30px 200px;
+    }
+}
